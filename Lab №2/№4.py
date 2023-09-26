@@ -12,7 +12,7 @@ def append_to_file(text):
 
 def read_file():
     try:
-        file = open("Calculationz.txt")
+        file = open("Calculations.txt")
     except FileNotFoundError:
         print("Файл не найден")
     else:
