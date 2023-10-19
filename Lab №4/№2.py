@@ -9,8 +9,8 @@ class Stationery:
 class Pen(Stationery):
     def __init__(self):
         self.name = 'Ручка'
-    def draw(self):
-        print('Запуск отрисовки ручкой')
+        def draw(self):
+            print('Запуск отрисовки ручкой')
 
 class Pencil(Stationery):
     def __init__(self):
