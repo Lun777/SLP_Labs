@@ -1,3 +1,20 @@
+# -*- coding: utf-8 -*-
+
+def natural_number():
+    while True:
+        num = input()
+        try:
+            int(num)
+        except:
+            print("Вы ввели не целое число! Повторите ввод:")
+        else:
+            num = int(num)
+            if num < 0:
+                print("Число должно быть неотрицательным! Повторите ввод:")
+            else:
+                break
+    return num
+
 class Square:
     def __init__(self, length):
         self.length = length
